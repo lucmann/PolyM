@@ -43,7 +43,13 @@ public:
     MsgUID getUniqueId() const;
 
 protected:
+    /**
+     * Move constructor
+     */
     Msg(Msg&&) = default;
+    /**
+     * Move assignment operator
+     */
     Msg& operator=(Msg&&) = default;
 
 private:
