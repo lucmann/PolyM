@@ -22,7 +22,13 @@ public:
     Msg(int msgId);
 
     virtual ~Msg() = default;
+    /**
+     * Disable copy constructor
+     */
     Msg(const Msg&) = delete;
+    /**
+     * Disable copy assignment operator
+     */
     Msg& operator=(const Msg&) = delete;
 
     /** "Virtual move constructor" */
