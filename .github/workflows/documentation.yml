@@ -25,7 +25,7 @@ jobs:
           cmake --build build
       - name: Deploy to GitHub Pages
         uses: peaceiris/actions-gh-pages@v3
-        if: ${{ github.event_name == 'push' && github.ref == 'refs/heads/document' }}
+        if: ${{ github.event_name == 'push' && (github.ref == 'refs/heads/document' || github.ref == 'refs/heads/notes') }}
         with:
           publish_branch: gh-pages
           github_token: ${{ secrets.GITHUB_TOKEN }}
