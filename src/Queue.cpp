@@ -144,6 +144,10 @@ private:
     std::mutex responseMapMutex_;
 };
 
+class Queue::LockFreeImpl {
+
+};
+
 Queue::Queue()
   : impl_(new Impl)
 {

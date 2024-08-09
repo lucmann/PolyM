@@ -65,6 +65,7 @@ public:
     size_t size();
 private:
     class Impl;
+    class LockFreeImpl;
     std::unique_ptr<Impl> impl_;
 };
 
