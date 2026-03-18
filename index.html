@@ -1,0 +1,287 @@
+<!DOCTYPE html>
+<html class="writer-html5" lang="en" data-content_root="./">
+<head>
+  <meta charset="utf-8" /><meta name="viewport" content="width=device-width, initial-scale=1" />
+
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Welcome to PolyM’s documentation! &mdash; PolyM 0.1 documentation</title>
+      <link rel="stylesheet" type="text/css" href="_static/pygments.css?v=80d5e7a1" />
+      <link rel="stylesheet" type="text/css" href="_static/css/theme.css?v=86f27845" />
+
+  
+  
+        <script src="_static/jquery.js?v=8dae8fb0"></script>
+        <script src="_static/_sphinx_javascript_frameworks_compat.js?v=2cd50e6c"></script>
+        <script src="_static/documentation_options.js?v=2709fde1"></script>
+        <script src="_static/doctools.js?v=888ff710"></script>
+        <script src="_static/sphinx_highlight.js?v=dc90522c"></script>
+    <script src="_static/js/theme.js"></script>
+    <link rel="index" title="Index" href="genindex.html" />
+    <link rel="search" title="Search" href="search.html" /> 
+</head>
+
+<body class="wy-body-for-nav"> 
+  <div class="wy-grid-for-nav">
+    <nav data-toggle="wy-nav-shift" class="wy-nav-side">
+      <div class="wy-side-scroll">
+        <div class="wy-side-nav-search" >
+
+          
+          
+          <a href="#" class="icon icon-home">
+            PolyM
+          </a>
+<div role="search">
+  <form id="rtd-search-form" class="wy-form" action="search.html" method="get">
+    <input type="text" name="q" placeholder="Search docs" aria-label="Search docs" />
+    <input type="hidden" name="check_keywords" value="yes" />
+    <input type="hidden" name="area" value="default" />
+  </form>
+</div>
+        </div><div class="wy-menu wy-menu-vertical" data-spy="affix" role="navigation" aria-label="Navigation menu">
+              <!-- Local TOC -->
+              <div class="local-toc"><ul>
+<li><a class="reference internal" href="#">Welcome to PolyM’s documentation!</a></li>
+<li><a class="reference internal" href="#indices-and-tables">Indices and tables</a></li>
+<li><a class="reference internal" href="#docs">Docs</a><ul>
+<li><a class="reference internal" href="#_CPPv4N5PolyM3MsgE"><code class="docutils literal notranslate"><span class="pre">Msg</span></code></a><ul>
+<li><a class="reference internal" href="#_CPPv4N5PolyM3Msg3MsgEi"><code class="docutils literal notranslate"><span class="pre">Msg::Msg()</span></code></a></li>
+<li><a class="reference internal" href="#_CPPv4N5PolyM3Msg4moveEv"><code class="docutils literal notranslate"><span class="pre">Msg::move()</span></code></a></li>
+<li><a class="reference internal" href="#_CPPv4NK5PolyM3Msg8getMsgIdEv"><code class="docutils literal notranslate"><span class="pre">Msg::getMsgId()</span></code></a></li>
+<li><a class="reference internal" href="#_CPPv4NK5PolyM3Msg11getUniqueIdEv"><code class="docutils literal notranslate"><span class="pre">Msg::getUniqueId()</span></code></a></li>
+</ul>
+</li>
+<li><a class="reference internal" href="#_CPPv4I0EN5PolyM7DataMsgE"><code class="docutils literal notranslate"><span class="pre">DataMsg</span></code></a><ul>
+<li><a class="reference internal" href="#_CPPv4IDpEN5PolyM7DataMsg7DataMsgEiDpRR4Args"><code class="docutils literal notranslate"><span class="pre">DataMsg::DataMsg()</span></code></a></li>
+<li><a class="reference internal" href="#_CPPv4N5PolyM7DataMsg4moveEv"><code class="docutils literal notranslate"><span class="pre">DataMsg::move()</span></code></a></li>
+<li><a class="reference internal" href="#_CPPv4NK5PolyM7DataMsg10getPayloadEv"><code class="docutils literal notranslate"><span class="pre">DataMsg::getPayload()</span></code></a></li>
+</ul>
+</li>
+<li><a class="reference internal" href="#_CPPv4N5PolyM5QueueE"><code class="docutils literal notranslate"><span class="pre">Queue</span></code></a><ul>
+<li><a class="reference internal" href="#_CPPv4N5PolyM5Queue3putERR3Msg"><code class="docutils literal notranslate"><span class="pre">Queue::put()</span></code></a></li>
+<li><a class="reference internal" href="#_CPPv4N5PolyM5Queue3getEi"><code class="docutils literal notranslate"><span class="pre">Queue::get()</span></code></a></li>
+<li><a class="reference internal" href="#_CPPv4N5PolyM5Queue6tryGetEv"><code class="docutils literal notranslate"><span class="pre">Queue::tryGet()</span></code></a></li>
+<li><a class="reference internal" href="#_CPPv4N5PolyM5Queue7requestERR3Msgi"><code class="docutils literal notranslate"><span class="pre">Queue::request()</span></code></a></li>
+<li><a class="reference internal" href="#_CPPv4N5PolyM5Queue9respondToE6MsgUIDRR3Msg"><code class="docutils literal notranslate"><span class="pre">Queue::respondTo()</span></code></a></li>
+<li><a class="reference internal" href="#_CPPv4N5PolyM5Queue4sizeEv"><code class="docutils literal notranslate"><span class="pre">Queue::size()</span></code></a></li>
+</ul>
+</li>
+</ul>
+</li>
+</ul>
+</div>
+        </div>
+      </div>
+    </nav>
+
+    <section data-toggle="wy-nav-shift" class="wy-nav-content-wrap"><nav class="wy-nav-top" aria-label="Mobile navigation menu" >
+          <i data-toggle="wy-nav-top" class="fa fa-bars"></i>
+          <a href="#">PolyM</a>
+      </nav>
+
+      <div class="wy-nav-content">
+        <div class="rst-content">
+          <div role="navigation" aria-label="Page navigation">
+  <ul class="wy-breadcrumbs">
+      <li><a href="#" class="icon icon-home" aria-label="Home"></a></li>
+      <li class="breadcrumb-item active">Welcome to PolyM’s documentation!</li>
+      <li class="wy-breadcrumbs-aside">
+            <a href="_sources/index.rst.txt" rel="nofollow"> View page source</a>
+      </li>
+  </ul>
+  <hr/>
+</div>
+          <div role="main" class="document" itemscope="itemscope" itemtype="http://schema.org/Article">
+           <div itemprop="articleBody">
+             
+  <section id="welcome-to-polym-s-documentation">
+<h1>Welcome to PolyM’s documentation!<a class="headerlink" href="#welcome-to-polym-s-documentation" title="Link to this heading"></a></h1>
+<div class="toctree-wrapper compound">
+</div>
+</section>
+<section id="indices-and-tables">
+<h1>Indices and tables<a class="headerlink" href="#indices-and-tables" title="Link to this heading"></a></h1>
+<ul class="simple">
+<li><p><a class="reference internal" href="genindex.html"><span class="std std-ref">Index</span></a></p></li>
+<li><p><a class="reference internal" href="py-modindex.html"><span class="std std-ref">Module Index</span></a></p></li>
+<li><p><a class="reference internal" href="search.html"><span class="std std-ref">Search Page</span></a></p></li>
+</ul>
+</section>
+<section id="docs">
+<h1>Docs<a class="headerlink" href="#docs" title="Link to this heading"></a></h1>
+<dl class="cpp class">
+<dt class="sig sig-object cpp" id="_CPPv4N5PolyM3MsgE">
+<span id="_CPPv3N5PolyM3MsgE"></span><span id="_CPPv2N5PolyM3MsgE"></span><span id="PolyM::Msg"></span><span class="target" id="classPolyM_1_1Msg"></span><span class="k"><span class="pre">class</span></span><span class="w"> </span><span class="sig-name descname"><span class="n"><span class="pre">Msg</span></span></span><a class="headerlink" href="#_CPPv4N5PolyM3MsgE" title="Link to this definition"></a><br /></dt>
+<dd><p><a class="reference internal" href="#classPolyM_1_1Msg"><span class="std std-ref">Msg</span></a> represents a simple message that doesn’t have any payload data. <a class="reference internal" href="#classPolyM_1_1Msg"><span class="std std-ref">Msg</span></a> ID identifies the type of the message. <a class="reference internal" href="#classPolyM_1_1Msg"><span class="std std-ref">Msg</span></a> ID can be queried with <a class="reference internal" href="#classPolyM_1_1Msg_1a865517563e785d22393dbbf2dce57c8f"><span class="std std-ref">getMsgId()</span></a>. </p>
+<p>Subclassed by <a class="reference internal" href="#classPolyM_1_1DataMsg"><span class="std std-ref">PolyM::DataMsg&lt; PayloadType &gt;</span></a></p>
+<div class="breathe-sectiondef docutils container">
+<p class="breathe-sectiondef-title rubric" id="breathe-section-title-public-functions">Public Functions</p>
+<dl class="cpp function">
+<dt class="sig sig-object cpp" id="_CPPv4N5PolyM3Msg3MsgEi">
+<span id="_CPPv3N5PolyM3Msg3MsgEi"></span><span id="_CPPv2N5PolyM3Msg3MsgEi"></span><span id="PolyM::Msg::Msg__i"></span><span class="target" id="classPolyM_1_1Msg_1aeac2515f622b298d1d61054a855823a4"></span><span class="sig-name descname"><span class="n"><span class="pre">Msg</span></span></span><span class="sig-paren">(</span><span class="kt"><span class="pre">int</span></span><span class="w"> </span><span class="n sig-param"><span class="pre">msgId</span></span><span class="sig-paren">)</span><a class="headerlink" href="#_CPPv4N5PolyM3Msg3MsgEi" title="Link to this definition"></a><br /></dt>
+<dd><p>Construct a <a class="reference internal" href="#classPolyM_1_1Msg"><span class="std std-ref">Msg</span></a>.</p>
+<dl class="field-list simple">
+<dt class="field-odd">Parameters<span class="colon">:</span></dt>
+<dd class="field-odd"><p><strong>msgId</strong> – <a class="reference internal" href="#classPolyM_1_1Msg"><span class="std std-ref">Msg</span></a> ID of this <a class="reference internal" href="#classPolyM_1_1Msg"><span class="std std-ref">Msg</span></a>. </p>
+</dd>
+</dl>
+</dd></dl>
+
+<dl class="cpp function">
+<dt class="sig sig-object cpp" id="_CPPv4N5PolyM3Msg4moveEv">
+<span id="_CPPv3N5PolyM3Msg4moveEv"></span><span id="_CPPv2N5PolyM3Msg4moveEv"></span><span id="PolyM::Msg::move"></span><span class="target" id="classPolyM_1_1Msg_1a07f15ca844875e3af00a547670ff29bd"></span><span class="k"><span class="pre">virtual</span></span><span class="w"> </span><span class="n"><span class="pre">std</span></span><span class="p"><span class="pre">::</span></span><span class="n"><span class="pre">unique_ptr</span></span><span class="p"><span class="pre">&lt;</span></span><a class="reference internal" href="#_CPPv4N5PolyM3MsgE" title="PolyM::Msg"><span class="n"><span class="pre">Msg</span></span></a><span class="p"><span class="pre">&gt;</span></span><span class="w"> </span><span class="sig-name descname"><span class="n"><span class="pre">move</span></span></span><span class="sig-paren">(</span><span class="sig-paren">)</span><a class="headerlink" href="#_CPPv4N5PolyM3Msg4moveEv" title="Link to this definition"></a><br /></dt>
+<dd><p>“Virtual move constructor” </p>
+</dd></dl>
+
+<dl class="cpp function">
+<dt class="sig sig-object cpp" id="_CPPv4NK5PolyM3Msg8getMsgIdEv">
+<span id="_CPPv3NK5PolyM3Msg8getMsgIdEv"></span><span id="_CPPv2NK5PolyM3Msg8getMsgIdEv"></span><span id="PolyM::Msg::getMsgIdC"></span><span class="target" id="classPolyM_1_1Msg_1a865517563e785d22393dbbf2dce57c8f"></span><span class="kt"><span class="pre">int</span></span><span class="w"> </span><span class="sig-name descname"><span class="n"><span class="pre">getMsgId</span></span></span><span class="sig-paren">(</span><span class="sig-paren">)</span><span class="w"> </span><span class="k"><span class="pre">const</span></span><a class="headerlink" href="#_CPPv4NK5PolyM3Msg8getMsgIdEv" title="Link to this definition"></a><br /></dt>
+<dd><p>Get <a class="reference internal" href="#classPolyM_1_1Msg"><span class="std std-ref">Msg</span></a> ID. <a class="reference internal" href="#classPolyM_1_1Msg"><span class="std std-ref">Msg</span></a> ID identifies message type. Multiple <a class="reference internal" href="#classPolyM_1_1Msg"><span class="std std-ref">Msg</span></a> instances can have the same <a class="reference internal" href="#classPolyM_1_1Msg"><span class="std std-ref">Msg</span></a> ID. </p>
+</dd></dl>
+
+<dl class="cpp function">
+<dt class="sig sig-object cpp" id="_CPPv4NK5PolyM3Msg11getUniqueIdEv">
+<span id="_CPPv3NK5PolyM3Msg11getUniqueIdEv"></span><span id="_CPPv2NK5PolyM3Msg11getUniqueIdEv"></span><span id="PolyM::Msg::getUniqueIdC"></span><span class="target" id="classPolyM_1_1Msg_1a0735212bee5697e278c128f21c680dca"></span><span class="n"><span class="pre">MsgUID</span></span><span class="w"> </span><span class="sig-name descname"><span class="n"><span class="pre">getUniqueId</span></span></span><span class="sig-paren">(</span><span class="sig-paren">)</span><span class="w"> </span><span class="k"><span class="pre">const</span></span><a class="headerlink" href="#_CPPv4NK5PolyM3Msg11getUniqueIdEv" title="Link to this definition"></a><br /></dt>
+<dd><p>Get <a class="reference internal" href="#classPolyM_1_1Msg"><span class="std std-ref">Msg</span></a> UID. <a class="reference internal" href="#classPolyM_1_1Msg"><span class="std std-ref">Msg</span></a> UID is the unique ID associated with this message. All <a class="reference internal" href="#classPolyM_1_1Msg"><span class="std std-ref">Msg</span></a> instances have a unique <a class="reference internal" href="#classPolyM_1_1Msg"><span class="std std-ref">Msg</span></a> UID. </p>
+</dd></dl>
+
+</div>
+</dd></dl>
+
+<dl class="cpp class">
+<dt class="sig sig-object cpp" id="_CPPv4I0EN5PolyM7DataMsgE">
+<span id="_CPPv3I0EN5PolyM7DataMsgE"></span><span id="_CPPv2I0EN5PolyM7DataMsgE"></span><span class="k"><span class="pre">template</span></span><span class="p"><span class="pre">&lt;</span></span><span class="k"><span class="pre">typename</span></span><span class="w"> </span><span class="sig-name descname"><span class="n"><span class="pre">PayloadType</span></span></span><span class="p"><span class="pre">&gt;</span></span><br /><span class="target" id="classPolyM_1_1DataMsg"></span><span class="k"><span class="pre">class</span></span><span class="w"> </span><span class="sig-name descname"><span class="n"><span class="pre">DataMsg</span></span></span><span class="w"> </span><span class="p"><span class="pre">:</span></span><span class="w"> </span><span class="k"><span class="pre">public</span></span><span class="w"> </span><span class="n"><span class="pre">PolyM</span></span><span class="p"><span class="pre">::</span></span><a class="reference internal" href="#_CPPv4N5PolyM3MsgE" title="PolyM::Msg"><span class="n"><span class="pre">Msg</span></span></a><a class="headerlink" href="#_CPPv4I0EN5PolyM7DataMsgE" title="Link to this definition"></a><br /></dt>
+<dd><p>DataMsg&lt;PayloadType&gt; is a <a class="reference internal" href="#classPolyM_1_1Msg"><span class="std std-ref">Msg</span></a> with payload of type PayloadType. Payload is constructed when <a class="reference internal" href="#classPolyM_1_1DataMsg"><span class="std std-ref">DataMsg</span></a> is created and the <a class="reference internal" href="#classPolyM_1_1DataMsg"><span class="std std-ref">DataMsg</span></a> instance owns the payload data. </p>
+<div class="breathe-sectiondef docutils container">
+<p class="breathe-sectiondef-title rubric" id="breathe-section-title-public-functions">Public Functions</p>
+<dl class="cpp function">
+<dt class="sig sig-object cpp" id="_CPPv4IDpEN5PolyM7DataMsg7DataMsgEiDpRR4Args">
+<span id="_CPPv3IDpEN5PolyM7DataMsg7DataMsgEiDpRR4Args"></span><span id="_CPPv2IDpEN5PolyM7DataMsg7DataMsgEiDpRR4Args"></span><span class="k"><span class="pre">template</span></span><span class="p"><span class="pre">&lt;</span></span><span class="k"><span class="pre">typename</span></span><span class="w"> </span><span class="p"><span class="pre">...</span></span><span class="sig-name descname"><span class="n"><span class="pre">Args</span></span></span><span class="p"><span class="pre">&gt;</span></span><br /><span class="target" id="classPolyM_1_1DataMsg_1a87e05569976a18499a609dc33074ee47"></span><span class="k"><span class="pre">inline</span></span><span class="w"> </span><span class="sig-name descname"><span class="n"><span class="pre">DataMsg</span></span></span><span class="sig-paren">(</span><span class="kt"><span class="pre">int</span></span><span class="w"> </span><span class="n sig-param"><span class="pre">msgId</span></span>, <a class="reference internal" href="#_CPPv4IDpEN5PolyM7DataMsg7DataMsgEiDpRR4Args" title="PolyM::DataMsg::DataMsg::Args"><span class="n"><span class="pre">Args</span></span></a><span class="p"><span class="pre">&amp;</span></span><span class="p"><span class="pre">&amp;</span></span><span class="p"><span class="pre">...</span></span><span class="w"> </span><span class="n sig-param"><span class="pre">args</span></span><span class="sig-paren">)</span><a class="headerlink" href="#_CPPv4IDpEN5PolyM7DataMsg7DataMsgEiDpRR4Args" title="Link to this definition"></a><br /></dt>
+<dd><p>Construct <a class="reference internal" href="#classPolyM_1_1DataMsg"><span class="std std-ref">DataMsg</span></a> </p>
+<dl class="field-list simple">
+<dt class="field-odd">Parameters<span class="colon">:</span></dt>
+<dd class="field-odd"><ul class="simple">
+<li><p><strong>msgId</strong> – <a class="reference internal" href="#classPolyM_1_1Msg"><span class="std std-ref">Msg</span></a> ID </p></li>
+<li><p><strong>args</strong> – Arguments for PayloadType ctor </p></li>
+</ul>
+</dd>
+</dl>
+</dd></dl>
+
+<dl class="cpp function">
+<dt class="sig sig-object cpp" id="_CPPv4N5PolyM7DataMsg4moveEv">
+<span id="_CPPv3N5PolyM7DataMsg4moveEv"></span><span id="_CPPv2N5PolyM7DataMsg4moveEv"></span><span id="PolyM::DataMsg::move"></span><span class="target" id="classPolyM_1_1DataMsg_1a15d7e46d3dac794a8e51117fd1bef70d"></span><span class="k"><span class="pre">inline</span></span><span class="w"> </span><span class="k"><span class="pre">virtual</span></span><span class="w"> </span><span class="n"><span class="pre">std</span></span><span class="p"><span class="pre">::</span></span><span class="n"><span class="pre">unique_ptr</span></span><span class="p"><span class="pre">&lt;</span></span><a class="reference internal" href="#_CPPv4N5PolyM3MsgE" title="PolyM::Msg"><span class="n"><span class="pre">Msg</span></span></a><span class="p"><span class="pre">&gt;</span></span><span class="w"> </span><span class="sig-name descname"><span class="n"><span class="pre">move</span></span></span><span class="sig-paren">(</span><span class="sig-paren">)</span><span class="w"> </span><span class="k"><span class="pre">override</span></span><a class="headerlink" href="#_CPPv4N5PolyM7DataMsg4moveEv" title="Link to this definition"></a><br /></dt>
+<dd><p>“Virtual move constructor” </p>
+</dd></dl>
+
+<dl class="cpp function">
+<dt class="sig sig-object cpp" id="_CPPv4NK5PolyM7DataMsg10getPayloadEv">
+<span id="_CPPv3NK5PolyM7DataMsg10getPayloadEv"></span><span id="_CPPv2NK5PolyM7DataMsg10getPayloadEv"></span><span id="PolyM::DataMsg::getPayloadC"></span><span class="target" id="classPolyM_1_1DataMsg_1aec2d77066e2fe637fdceb241dd7b8139"></span><span class="k"><span class="pre">inline</span></span><span class="w"> </span><a class="reference internal" href="#_CPPv4I0EN5PolyM7DataMsgE" title="PolyM::DataMsg::PayloadType"><span class="n"><span class="pre">PayloadType</span></span></a><span class="w"> </span><span class="p"><span class="pre">&amp;</span></span><span class="sig-name descname"><span class="n"><span class="pre">getPayload</span></span></span><span class="sig-paren">(</span><span class="sig-paren">)</span><span class="w"> </span><span class="k"><span class="pre">const</span></span><a class="headerlink" href="#_CPPv4NK5PolyM7DataMsg10getPayloadEv" title="Link to this definition"></a><br /></dt>
+<dd><p>Get the payload data </p>
+</dd></dl>
+
+</div>
+</dd></dl>
+
+<dl class="cpp class">
+<dt class="sig sig-object cpp" id="_CPPv4N5PolyM5QueueE">
+<span id="_CPPv3N5PolyM5QueueE"></span><span id="_CPPv2N5PolyM5QueueE"></span><span id="PolyM::Queue"></span><span class="target" id="classPolyM_1_1Queue"></span><span class="k"><span class="pre">class</span></span><span class="w"> </span><span class="sig-name descname"><span class="n"><span class="pre">Queue</span></span></span><a class="headerlink" href="#_CPPv4N5PolyM5QueueE" title="Link to this definition"></a><br /></dt>
+<dd><p><a class="reference internal" href="#classPolyM_1_1Queue"><span class="std std-ref">Queue</span></a> is a thread-safe message queue. It supports one-way messaging and request-response pattern. </p>
+<div class="breathe-sectiondef docutils container">
+<p class="breathe-sectiondef-title rubric" id="breathe-section-title-public-functions">Public Functions</p>
+<dl class="cpp function">
+<dt class="sig sig-object cpp" id="_CPPv4N5PolyM5Queue3putERR3Msg">
+<span id="_CPPv3N5PolyM5Queue3putERR3Msg"></span><span id="_CPPv2N5PolyM5Queue3putERR3Msg"></span><span id="PolyM::Queue::put__MsgRR"></span><span class="target" id="classPolyM_1_1Queue_1a7e79cfafd6fa19d263e87217f90bd110"></span><span class="kt"><span class="pre">void</span></span><span class="w"> </span><span class="sig-name descname"><span class="n"><span class="pre">put</span></span></span><span class="sig-paren">(</span><a class="reference internal" href="#_CPPv4N5PolyM3MsgE" title="PolyM::Msg"><span class="n"><span class="pre">Msg</span></span></a><span class="w"> </span><span class="p"><span class="pre">&amp;</span></span><span class="p"><span class="pre">&amp;</span></span><span class="n sig-param"><span class="pre">msg</span></span><span class="sig-paren">)</span><a class="headerlink" href="#_CPPv4N5PolyM5Queue3putERR3Msg" title="Link to this definition"></a><br /></dt>
+<dd><p>Put <a class="reference internal" href="#classPolyM_1_1Msg"><span class="std std-ref">Msg</span></a> to the end of the queue.</p>
+<dl class="field-list simple">
+<dt class="field-odd">Parameters<span class="colon">:</span></dt>
+<dd class="field-odd"><p><strong>msg</strong> – <a class="reference internal" href="#classPolyM_1_1Msg"><span class="std std-ref">Msg</span></a> to put to the queue. </p>
+</dd>
+</dl>
+</dd></dl>
+
+<dl class="cpp function">
+<dt class="sig sig-object cpp" id="_CPPv4N5PolyM5Queue3getEi">
+<span id="_CPPv3N5PolyM5Queue3getEi"></span><span id="_CPPv2N5PolyM5Queue3getEi"></span><span id="PolyM::Queue::get__i"></span><span class="target" id="classPolyM_1_1Queue_1a7d6ed3044409dc819d708933359530db"></span><span class="n"><span class="pre">std</span></span><span class="p"><span class="pre">::</span></span><span class="n"><span class="pre">unique_ptr</span></span><span class="p"><span class="pre">&lt;</span></span><a class="reference internal" href="#_CPPv4N5PolyM3MsgE" title="PolyM::Msg"><span class="n"><span class="pre">Msg</span></span></a><span class="p"><span class="pre">&gt;</span></span><span class="w"> </span><span class="sig-name descname"><span class="n"><span class="pre">get</span></span></span><span class="sig-paren">(</span><span class="kt"><span class="pre">int</span></span><span class="w"> </span><span class="n sig-param"><span class="pre">timeoutMillis</span></span><span class="w"> </span><span class="p"><span class="pre">=</span></span><span class="w"> </span><span class="m"><span class="pre">0</span></span><span class="sig-paren">)</span><a class="headerlink" href="#_CPPv4N5PolyM5Queue3getEi" title="Link to this definition"></a><br /></dt>
+<dd><p>Get message from the head of the queue. Blocks until at least one message is available in the queue, or until timeout happens. If <a class="reference internal" href="#classPolyM_1_1Queue_1a7d6ed3044409dc819d708933359530db"><span class="std std-ref">get()</span></a> returns due to timeout, returns a nullptr.</p>
+<dl class="field-list simple">
+<dt class="field-odd">Parameters<span class="colon">:</span></dt>
+<dd class="field-odd"><p><strong>timeoutMillis</strong> – How many ms to wait for message until timeout happens. 0 = wait indefinitely. </p>
+</dd>
+</dl>
+</dd></dl>
+
+<dl class="cpp function">
+<dt class="sig sig-object cpp" id="_CPPv4N5PolyM5Queue6tryGetEv">
+<span id="_CPPv3N5PolyM5Queue6tryGetEv"></span><span id="_CPPv2N5PolyM5Queue6tryGetEv"></span><span id="PolyM::Queue::tryGet"></span><span class="target" id="classPolyM_1_1Queue_1a482ee23affd4bc656190d13a8f06cebc"></span><span class="n"><span class="pre">std</span></span><span class="p"><span class="pre">::</span></span><span class="n"><span class="pre">unique_ptr</span></span><span class="p"><span class="pre">&lt;</span></span><a class="reference internal" href="#_CPPv4N5PolyM3MsgE" title="PolyM::Msg"><span class="n"><span class="pre">Msg</span></span></a><span class="p"><span class="pre">&gt;</span></span><span class="w"> </span><span class="sig-name descname"><span class="n"><span class="pre">tryGet</span></span></span><span class="sig-paren">(</span><span class="sig-paren">)</span><a class="headerlink" href="#_CPPv4N5PolyM5Queue6tryGetEv" title="Link to this definition"></a><br /></dt>
+<dd><p>Get message from the head of the queue. Returns an empty pointer if no message is available. </p>
+</dd></dl>
+
+<dl class="cpp function">
+<dt class="sig sig-object cpp" id="_CPPv4N5PolyM5Queue7requestERR3Msgi">
+<span id="_CPPv3N5PolyM5Queue7requestERR3Msgi"></span><span id="_CPPv2N5PolyM5Queue7requestERR3Msgi"></span><span id="PolyM::Queue::request__MsgRR.i"></span><span class="target" id="classPolyM_1_1Queue_1afec031289fdf70ed92074edf1104d34c"></span><span class="n"><span class="pre">std</span></span><span class="p"><span class="pre">::</span></span><span class="n"><span class="pre">unique_ptr</span></span><span class="p"><span class="pre">&lt;</span></span><a class="reference internal" href="#_CPPv4N5PolyM3MsgE" title="PolyM::Msg"><span class="n"><span class="pre">Msg</span></span></a><span class="p"><span class="pre">&gt;</span></span><span class="w"> </span><span class="sig-name descname"><span class="n"><span class="pre">request</span></span></span><span class="sig-paren">(</span><a class="reference internal" href="#_CPPv4N5PolyM3MsgE" title="PolyM::Msg"><span class="n"><span class="pre">Msg</span></span></a><span class="w"> </span><span class="p"><span class="pre">&amp;</span></span><span class="p"><span class="pre">&amp;</span></span><span class="n sig-param"><span class="pre">msg</span></span>, <span class="kt"><span class="pre">int</span></span><span class="w"> </span><span class="n sig-param"><span class="pre">timeoutMillis</span></span><span class="w"> </span><span class="p"><span class="pre">=</span></span><span class="w"> </span><span class="m"><span class="pre">0</span></span><span class="sig-paren">)</span><a class="headerlink" href="#_CPPv4N5PolyM5Queue7requestERR3Msgi" title="Link to this definition"></a><br /></dt>
+<dd><p>Make a request. Call will block until response is given with <a class="reference internal" href="#classPolyM_1_1Queue_1ad8e25c081ffc970312ada5544a3659f1"><span class="std std-ref">respondTo()</span></a>. If <a class="reference internal" href="#classPolyM_1_1Queue_1afec031289fdf70ed92074edf1104d34c"><span class="std std-ref">request()</span></a> returns due to timeout, returns a nullptr.</p>
+<dl class="field-list simple">
+<dt class="field-odd">Parameters<span class="colon">:</span></dt>
+<dd class="field-odd"><ul class="simple">
+<li><p><strong>msg</strong> – Request message. Is put to the queue so it can be retrieved from it with <a class="reference internal" href="#classPolyM_1_1Queue_1a7d6ed3044409dc819d708933359530db"><span class="std std-ref">get()</span></a>. </p></li>
+<li><p><strong>timeoutMillis</strong> – How many ms to wait for response until timeout happens. 0 = wait indefinitely. </p></li>
+</ul>
+</dd>
+</dl>
+</dd></dl>
+
+<dl class="cpp function">
+<dt class="sig sig-object cpp" id="_CPPv4N5PolyM5Queue9respondToE6MsgUIDRR3Msg">
+<span id="_CPPv3N5PolyM5Queue9respondToE6MsgUIDRR3Msg"></span><span id="_CPPv2N5PolyM5Queue9respondToE6MsgUIDRR3Msg"></span><span id="PolyM::Queue::respondTo__MsgUID.MsgRR"></span><span class="target" id="classPolyM_1_1Queue_1ad8e25c081ffc970312ada5544a3659f1"></span><span class="kt"><span class="pre">bool</span></span><span class="w"> </span><span class="sig-name descname"><span class="n"><span class="pre">respondTo</span></span></span><span class="sig-paren">(</span><span class="n"><span class="pre">MsgUID</span></span><span class="w"> </span><span class="n sig-param"><span class="pre">reqUid</span></span>, <a class="reference internal" href="#_CPPv4N5PolyM3MsgE" title="PolyM::Msg"><span class="n"><span class="pre">Msg</span></span></a><span class="w"> </span><span class="p"><span class="pre">&amp;</span></span><span class="p"><span class="pre">&amp;</span></span><span class="n sig-param"><span class="pre">responseMsg</span></span><span class="sig-paren">)</span><a class="headerlink" href="#_CPPv4N5PolyM5Queue9respondToE6MsgUIDRR3Msg" title="Link to this definition"></a><br /></dt>
+<dd><p>Respond to a request previously made with <a class="reference internal" href="#classPolyM_1_1Queue_1afec031289fdf70ed92074edf1104d34c"><span class="std std-ref">request()</span></a>. If the requestID has been found, return true.</p>
+<dl class="field-list simple">
+<dt class="field-odd">Parameters<span class="colon">:</span></dt>
+<dd class="field-odd"><ul class="simple">
+<li><p><strong>reqUid</strong> – <a class="reference internal" href="#classPolyM_1_1Msg"><span class="std std-ref">Msg</span></a> UID of the request message. </p></li>
+<li><p><strong>responseMsg</strong> – Response message. The requester will receive it as the return value of <a class="reference internal" href="#classPolyM_1_1Queue_1afec031289fdf70ed92074edf1104d34c"><span class="std std-ref">request()</span></a>. </p></li>
+</ul>
+</dd>
+</dl>
+</dd></dl>
+
+<dl class="cpp function">
+<dt class="sig sig-object cpp" id="_CPPv4N5PolyM5Queue4sizeEv">
+<span id="_CPPv3N5PolyM5Queue4sizeEv"></span><span id="_CPPv2N5PolyM5Queue4sizeEv"></span><span id="PolyM::Queue::size"></span><span class="target" id="classPolyM_1_1Queue_1aafed4109cfefea919573194d6becfe3a"></span><span class="n"><span class="pre">size_t</span></span><span class="w"> </span><span class="sig-name descname"><span class="n"><span class="pre">size</span></span></span><span class="sig-paren">(</span><span class="sig-paren">)</span><a class="headerlink" href="#_CPPv4N5PolyM5Queue4sizeEv" title="Link to this definition"></a><br /></dt>
+<dd><p>Get the size of the queue </p>
+</dd></dl>
+
+</div>
+</dd></dl>
+
+</section>
+
+
+           </div>
+          </div>
+          <footer>
+
+  <hr/>
+
+  <div role="contentinfo">
+    <p>&#169; Copyright 2024, Kalle Huttunen.</p>
+  </div>
+
+  Built with <a href="https://www.sphinx-doc.org/">Sphinx</a> using a
+    <a href="https://github.com/readthedocs/sphinx_rtd_theme">theme</a>
+    provided by <a href="https://readthedocs.org">Read the Docs</a>.
+   
+
+</footer>
+        </div>
+      </div>
+    </section>
+  </div>
+  <script>
+      jQuery(function () {
+          SphinxRtdTheme.Navigation.enable(true);
+      });
+  </script> 
+
+</body>
+</html>
