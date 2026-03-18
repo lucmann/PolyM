@@ -31,6 +31,7 @@ if(POLYM_BUILD_TEST)
 endif()
 
 if(POLYM_BUILD_DOCS)
+  find_package(Doxygen REQUIRED)
   set_property(
     TARGET polym
     PROPERTY PUBLIC_INCLUDE_DIRECTORIES
