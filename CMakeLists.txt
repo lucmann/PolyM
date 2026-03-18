@@ -30,8 +30,25 @@ if(POLYM_BUILD_TEST)
   add_test(NAME PolyM COMMAND testpolym)
 endif()
 
+function(check_python_module module)
+  execute_process(
+    COMMAND ${Python3_EXECUTABLE} -c "import ${module}"
+    RESULT_VARIABLE result
+    ERROR_QUIET
+  )
+  if(NOT result EQUAL 0)
+    message(FATAL_ERROR "Python module '${module}' not found")
+  else()
+    message(STATUS "Found Python module '${module}'")
+  endif()
+endfunction()
+
 if(POLYM_BUILD_DOCS)
   find_package(Doxygen REQUIRED)
+  find_package(Sphinx REQUIRED)
+  find_package(Python3 REQUIRED COMPONENTS Interpreter)
+  check_python_module(breathe)
+  check_python_module(sphinx_rtd_theme)
   set_property(
     TARGET polym
     PROPERTY PUBLIC_INCLUDE_DIRECTORIES
